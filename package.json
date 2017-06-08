@@ -6,7 +6,8 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-fullpage": "^0.1.16",
-    "react-visibility-sensor": "^3.10.0"
+    "react-visibility-sensor": "^3.10.0",
+    "siema": "^1.4.2"
   },
   "devDependencies": {
     "react-scripts": "1.0.7"
