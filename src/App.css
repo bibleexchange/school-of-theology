@@ -1,0 +1,89 @@
+.app-logo {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+.siema {
+  height: 100%;
+}
+.siema .avatar {
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
+}
+.siema > div, .siema > div > div, .slide {
+  height: 100%;
+}
+button {
+  position: absolute;
+  top: 50%;
+}
+.intro {
+  background:linear-gradient(
+      rgba(15, 182, 206, 0.8),
+      rgba(31, 204, 135, 0.8)
+    ), url('./images/graduation.jpg');
+}
+.about {
+  background: linear-gradient(
+      rgba(250, 112, 63, 0.8),
+      rgba(250, 112, 63, 0.8)
+    ), url('./images/grounds.jpg');
+}
+.courses {
+  background: linear-gradient(
+      rgba(253, 195, 31, 0.8),
+      rgba(253, 195, 31, 0.8)
+    ), url('./images/class.jpg');
+}
+.donate {
+  background: linear-gradient(
+      rgba(15, 182, 206, 0.8),
+      rgba(15, 182, 206, 0.8)
+    ), url('./images/group.jpg');
+}
+.section {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+}
+.section {
+  color: #fff;
+}
+.jacob {
+  background: linear-gradient(
+      90deg,
+      rgba(15, 182, 206, 0.8),
+      rgba(31, 204, 135, 0.8)
+    ), url('./images/jacob.jpg');
+}
+.matthew {
+  background: linear-gradient(
+      90deg,
+      rgba(31, 204, 135, 0.8),
+      rgba(253, 195, 31, 0.8)
+    ), url('./images/matthew.jpg');
+}
+.hosea {
+  background: linear-gradient(
+      90deg,
+      rgba(253, 195, 31, 0.8),
+      rgba(250, 112, 63, 0.8)
+    ), url('./images/hosea.jpg');
+}
+.reuben {
+  background: linear-gradient(
+      90deg,
+      rgba(250, 112, 63, 0.8),
+      rgba(15, 182, 206, 0.8)
+    ), url('./images/reuben.jpg');
+}
+.slide {
+  background-size: cover;
+  background-position: center;
+}
+.call-to-action {
+  left: 50%;
+}
