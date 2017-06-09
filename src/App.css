@@ -1,3 +1,11 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+* {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
 .app-logo {
   width: 70%;
   margin-right: auto;
@@ -11,6 +19,7 @@
   width: 20%;
   height: auto;
   border-radius: 50%;
+  border: 4px solid #fdc31f;
 }
 .siema > div, .siema > div > div, .slide {
   height: 100%;
@@ -47,10 +56,13 @@ button {
   background-size: cover;
   background-position: center;
   position: relative;
-
-}
-.section {
   color: #fff;
+  padding: 1rem 2rem;
+}
+.slider {
+  padding: 0;
+}
+.slide {
 }
 .jacob {
   background: linear-gradient(
@@ -264,7 +276,7 @@ html.fp-enabled,
     height: 4px;
     width: 4px;
     border: 0;
-    background: #333;
+    background: #fff;
     left: 50%;
     top: 50%;
     margin: -2px 0 0 -2px;
