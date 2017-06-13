@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import logo from './besm-logo.svg';
+import Logo from './Logo.js';
 import hoseaFace from './images/hosea-face.jpg';
 import jacobFace from './images/jacob-face.jpg';
 import reubenFace from './images/reuben-face.jpg';
 import matthewFace from './images/matthew-face.jpg';
 import $ from 'jquery';
 import 'fullpage.js';
+import './fullpage.css';
 import './App.css';
 
 class App extends Component {
@@ -14,8 +15,10 @@ class App extends Component {
       <div className="App">
         <main id="fullpage">
           <div className="section intro">
-            <img src={logo} className="app-logo" alt="logo" />
-            <h1>Bible School located in Singida, Tanzania</h1>
+            <div className="title">
+              <Logo />
+              <h1>Bible School located in Singida, Tanzania</h1>
+            </div>
           </div>
           <div className="section about">
             <h2>Making disciples out of all people</h2>
@@ -24,24 +27,32 @@ class App extends Component {
           </div>
           <div className="section slider">
             <div className="slide jacob">
-              <img className="avatar" src={jacobFace} alt="Jacob Gariel" />
-              <h3>Jacob Mfandi</h3>
-              <h4>Teacher</h4>
+              <div className="bio">
+                <img className="avatar" src={jacobFace} alt="Jacob Gabriel Mfandi" />
+                <h3>Jacob Mfandi</h3>
+                <h4>Teacher</h4>
+              </div>
             </div>
             <div className="slide matthew">
-              <img className="avatar" src={matthewFace} alt="Matthew Derocher" />
-              <h3>Matthew Derocher</h3>
-              <h4>Teacher</h4>
+              <div className="bio">
+                <img className="avatar" src={matthewFace} alt="Matthew Derocher" />
+                <h3>Matthew Derocher</h3>
+                <h4>Teacher</h4>
+              </div>
             </div>
             <div className="slide hosea">
-              <img className="avatar" src={hoseaFace} alt="Hosea" />
-              <h3>Hosea</h3>
-              <h4>Teacher</h4>
+              <div className="bio">
+                <img className="avatar" src={hoseaFace} alt="Hosea" />
+                <h3>Hosea</h3>
+                <h4>Teacher</h4>
+              </div>
             </div>
             <div className="slide reuben">
-              <img className="avatar" src={reubenFace} alt="Reuben Elijah" />
-              <h3>Reuben Elijah</h3>
-              <h4>Translator</h4>
+              <div className="bio">
+                <img className="avatar" src={reubenFace} alt="Reuben Elijah" />
+                <h3>Reuben Elijah</h3>
+                <h4>Translator</h4>
+              </div>
             </div>
           </div>
           <div className="section courses">
