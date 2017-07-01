@@ -26,6 +26,7 @@ class App extends Component {
             <p>Originally named Deliverance Bible Institute of Tanzania, Bible Exchange School of Ministry is a child ministry of <a href="http://deliverance.me">Deliverance Center</a>, an independent church in Maine, USA. The school has been opperating in Singida since August 2015.</p>
           </div>
           <div className="section slider">
+            <h2>Falculty</h2>
             <div className="slide jacob">
               <div className="bio">
                 <img className="avatar" src={jacobFace} alt="Jacob Gabriel Mfandi" />
@@ -56,6 +57,7 @@ class App extends Component {
             </div>
           </div>
           <div className="section courses">
+            <h2>Courses</h2>
             <ul>
               <li>Bible Introduction</li>
               <li>Pentateuch</li>
@@ -79,6 +81,10 @@ class App extends Component {
           <div className="section donate">
             <button className="call-to-action">Donate</button>
           </div>
+          <footer className="fp-auto-height section">
+            <p>&copy; 2017 Deliverance Center, Inc.</p>
+            <p><a href="mailto:info@bible.exchange">info@bible.exchange</a></p>
+          </footer>
         </main>
       </div>
     );
